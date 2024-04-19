@@ -12,7 +12,6 @@ class Game:
         self.run = True
         self.player_is_alive = True
         self.alien_moves = 0
-        self.time_since_shot = pygame.time.Clock.get_time()
 
         # Init game
         pygame.init()
